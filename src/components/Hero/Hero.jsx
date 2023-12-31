@@ -41,12 +41,12 @@ function Hero() {
             <div className="container">
             <div className="grid grid-cols-1 lg:grid-cols-2 ">
                 {/* text-content srction */}
-                <div className='flex flex-col justify-center gap-4 pt-12 sm:pt-0 text-center sm:text-left '>
+                <div className='flex flex-col justify-center gap-4 pt-12 sm:pt-0 text-center sm:text-center '>
                     <h1 className='text-5xl sm:text-6xl md:text-7xl font-bold'>Welcome to 
                         <span className='bg-clip-text text-transparent bg-gradient-to-b from-primary to-secondary drop-shadow-[4px_4px_0_rgba(255, 255,255, 1)]' style={{filter:'drop-shadow(4px 4px 0 rgba(255, 255 , 255 , 1))'}}>Burger</span>
                         <span className='bg-clip-text text-transparent bg-gradient-to-r from-red-400 to-red-900 drop-shadow-[4px_4px_0_rgba(255, 255,255, 1)]' style={{filter:'drop-shadow(4px 4px 0 rgba(255, 199 , 20 , 1))'}}>King</span>
                     </h1>
-                    <p className='text-sm'>
+                    <p className='text-sm '>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias quia facere provident delectus tenetur ad veniam dignissimos temporibus. Quia repellat impedit incidunt, reiciendis maiores veritatis nobis consequatur fuga provident est!
                     </p>
                     <div>
