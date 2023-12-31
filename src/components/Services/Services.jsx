@@ -51,7 +51,7 @@ const ServicesData =[
 ]
 function Services() {
   return (
-    <div className='bg-gray-100'>
+    <div className='bg-gray-100 '>
         <div className="py-12 lg:py-20">
             <div className="container">
                 {/* Header title  section component*/}
