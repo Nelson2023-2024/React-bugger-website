@@ -98,12 +98,12 @@ function Testimonial() {
             {/* Header Title */}
                 <HeaderectionTitle title="Testimonial" subtitle="What out customers say" description=" Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos sed at, ipsum aspernatur "/>
             {/* TEstimonial card Title */}
-            <div className="max-w-[600px] mx-auto">
-                <Slider className="cursor-grab" {...settings}>
+            <div data-aos="fade-down"  className="max-w-[600px] mx-auto">
+                <Slider  className="cursor-grab" {...settings}>
                     {
                         TestimonialData.map(({id, name, testimonial, img  }) =>(
                           <div key={id}>
-                            <div className="p-4 mx-5 my-8 space-y-3 text-center shadow-lg rounded-xl">
+                            <div  className="p-4 mx-5 my-8 space-y-3 text-center shadow-lg rounded-xl">
                                 <img src={img} alt="" 
                                 className="block mx-auto rounded-full w-[100px] h-[100px]"
                                 

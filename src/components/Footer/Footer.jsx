@@ -12,10 +12,10 @@ const Footer = () => {
   return (
     <div data-aos="fade-up" className="bg-gray-100">
       <section className="max-w-[1200px] mx-auto">
-        <div className=" grid md:grid-cols-3 py-5">
+        <div className="grid py-5 md:grid-cols-3">
           {/* company details */}
-          <div className=" py-8 px-4 ">
-            <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
+          <div className="px-4 py-8 ">
+            <h1 className="flex items-center gap-3 mb-3 text-xl font-bold text-justify sm:text-3xl sm:text-left">
               <img src={footerLogo} alt="Logo" className="w-16" />
               Burger King
             </h1>
@@ -26,11 +26,11 @@ const Footer = () => {
             <br />
             <div className="flex items-center gap-3">
               <FaLocationArrow />
-              <p>Noida, Uttar Pradesh</p>
+              <p>Kenya, Nairobi</p>
             </div>
             <div className="flex items-center gap-3 mt-3">
               <FaMobileAlt />
-              <p>+91 123456789</p>
+              <p>+254115720771</p>
             </div>
             {/* Social Handle */}
             <div className="flex items-center gap-3 mt-6">
@@ -46,10 +46,10 @@ const Footer = () => {
             </div>
           </div>
           {/* footer links */}
-          <div className="grid grid-cols-2 sm:grid-cols-3 col-span-2 md:pl-10 ">
+          <div className="grid grid-cols-2 col-span-2 sm:grid-cols-3 md:pl-10 ">
             <div className="">
-              <div className="py-8 px-4 ">
-                <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
+              <div className="px-4 py-8 ">
+                <h1 className="mb-3 text-xl font-bold text-justify sm:text-xl sm:text-left">
                   Important Links
                 </h1>
                 <ul className={`flex flex-col gap-3`}>
@@ -61,8 +61,8 @@ const Footer = () => {
               </div>
             </div>
             <div className="">
-              <div className="py-8 px-4 ">
-                <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
+              <div className="px-4 py-8 ">
+                <h1 className="mb-3 text-xl font-bold text-justify sm:text-xl sm:text-left">
                   Links
                 </h1>
                 <ul className="flex flex-col gap-3">
@@ -74,8 +74,8 @@ const Footer = () => {
               </div>
             </div>
             <div className="">
-              <div className="py-8 px-4 ">
-                <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
+              <div className="px-4 py-8 ">
+                <h1 className="mb-3 text-xl font-bold text-justify sm:text-xl sm:text-left">
                   Links
                 </h1>
                 <ul className="flex flex-col gap-3">
@@ -89,8 +89,9 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <div className="text-center py-10 border-t-2 border-gray-300/50">
-            @copyright 2024 || The Coding Journey
+          <div className="py-10 text-center border-t-2 border-gray-300/50">
+            &copy; copyright Nelson 2024 <br />
+            Made with <span style={{fontSize:'20px', color:'red'}}>&hearts; </span>by Nelson
           </div>
         </div>
       </section>

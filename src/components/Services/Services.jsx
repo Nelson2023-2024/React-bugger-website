@@ -64,14 +64,15 @@ function Services() {
                         {/* Cards */}
                         return(
                              
-                            <div key={id} className=' md:max-w-[350px] max-w-[600px]: rounded-2xl  bg-white group hover:bg-slate-200 group-hover:text-white relative shadow-lg duration-500 '>
+                            <div key={id} data-aos="fade-up"
+                            data-aos-delay={aosDelay} className=' md:max-w-[350px] max-w-[600px]: rounded-2xl  bg-white group hover:bg-slate-200 group-hover:text-white relative shadow-lg duration-500 '>
                                 <div className='h-[100px] relative'>
                                     <img className='max-w-200px block h-[120px] mx-auto relative top-16 transform -translate-y-16  hover:scale-105 duration-500' src={img} alt="" />
                                 </div>
-                                <div className='text-center p-4'>
-                                    <h1 className='text-primary text-xl font-bold'>{name}</h1>
-                                    <p className='text-gray-500  duration-500 text-sm '>{description}</p>
-                                     <button className='px-7 py-1 mt-2 text-white duration-200 rounded-md bg-gradient-to-r from-orange-600 to-amber-400 hover:scale-105'>Order</button>
+                                <div className='p-4 text-center'>
+                                    <h1 className='text-xl font-bold text-primary'>{name}</h1>
+                                    <p className='text-sm text-gray-500 duration-500 '>{description}</p>
+                                     <button className='py-1 mt-2 text-white duration-200 rounded-md px-7 bg-gradient-to-r from-orange-600 to-amber-400 hover:scale-105'>Order</button>
 
                                 </div>
 
