@@ -46,47 +46,44 @@ const settings = {
 };
 
 //testimonial data
-const TestimonialData =[
-    {
-    id:1,
-    name:"Samuel",
-    testimonial:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic sit corporis eaque, repellendus neque nulla, rem aperiam consectetur mollitia maxime placeat impedit natus cumque expedita facilis saepe iure fugiat ipsa.",
-    img:"https://tse3.mm.bing.net/th?id=OIP.ly97Gx2DaiGrPJXmBEBmPwHaGU&pid=Api&P=0&h=220"
-    },
-        {
-    id:2,
-    name:"John Doe",
-    testimonial:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic sit corporis eaque, repellendus neque nulla, rem aperiam consectetur mollitia maxime placeat impedit natus cumque expedita facilis saepe iure fugiat ipsa.",
-    img:"https://tse3.mm.bing.net/th?id=OIP.Y2_pJANcit-s3EVpPCHblAHaE_&pid=Api&P=0&h=220"
-    },
-        {
-    id:3,
-    name:"Smith",
-    testimonial:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic sit corporis eaque, repellendus neque nulla, rem aperiam consectetur mollitia maxime placeat impedit natus cumque expedita facilis saepe iure fugiat ipsa.",
-    img:"https://i.pinimg.com/originals/15/c3/a4/15c3a465c648a162a0dd1c8d1856d5f6.jpg"
-    },
-      {
-    id:4,
-    name:"Nelson",
-    testimonial:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic sit corporis eaque, repellendus neque nulla, rem aperiam consectetur mollitia maxime placeat impedit natus cumque expedita facilis saepe iure fugiat ipsa.",
-    img:"https://tse4.mm.bing.net/th?id=OIP.ViGlpoU2qdl9vGC1mxhpNgHaHa&pid=Api&P=0&h=220"
-    },
-      {
-    id:5,
-    name:"Elon John",
-    testimonial:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic sit corporis eaque, repellendus neque nulla, rem aperiam consectetur mollitia maxime placeat impedit natus cumque expedita facilis saepe iure fugiat ipsa.",
-    img:"https://kottke.org/plus/misc/images/ai-faces-01.jpg"
-    },
-      {
-    id:6,
-    name:"Smith",
-    testimonial:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic sit corporis eaque, repellendus neque nulla, rem aperiam consectetur mollitia maxime placeat impedit natus cumque expedita facilis saepe iure fugiat ipsa.",
-    img:"https://i.pinimg.com/originals/15/c3/a4/15c3a465c648a162a0dd1c8d1856d5f6.jpg"
-    },
-    
-    
-]
-
+const TestimonialData = [
+  {
+    id: 1,
+    name: "Emma Watson",
+    testimonial: "I absolutely loved the variety of flavors and the quality of the burgers. The experience was delightful!",
+    img: "https://tse3.mm.bing.net/th?id=OIP.ly97Gx2DaiGrPJXmBEBmPwHaGU&pid=Api&P=0&h=220"
+  },
+  {
+    id: 2,
+    name: "Michael Johnson",
+    testimonial: "The burgers were a true revelation! The blend of ingredients was exceptional, leaving a memorable taste.",
+    img: "https://tse3.mm.bing.net/th?id=OIP.Y2_pJANcit-s3EVpPCHblAHaE_&pid=Api&P=0&h=220"
+  },
+  {
+    id: 3,
+    name: "Sophia Adams",
+    testimonial: "The experience of savoring these burgers was beyond comparison. Each bite was a burst of flavors!",
+    img: "https://i.pinimg.com/originals/15/c3/a4/15c3a465c648a162a0dd1c8d1856d5f6.jpg"
+  },
+  {
+    id: 4,
+    name: "Daniel Brown",
+    testimonial: "I couldn't believe how delicious the burgers were! It was an experience I'd recommend to everyone.",
+    img: "https://tse4.mm.bing.net/th?id=OIP.ViGlpoU2qdl9vGC1mxhpNgHaHa&pid=Api&P=0&h=220"
+  },
+  {
+    id: 5,
+    name: "Olivia Jones",
+    testimonial: "These burgers are a true masterpiece. The taste lingers long after the last bite!",
+    img: "https://kottke.org/plus/misc/images/ai-faces-01.jpg"
+  },
+  {
+    id: 6,
+    name: "Matthew Harris",
+    testimonial: "I found the burgers to be an epitome of perfection. The flavors were unparalleled!",
+    img: "https://i.pinimg.com/originals/15/c3/a4/15c3a465c648a162a0dd1c8d1856d5f6.jpg"
+  }
+];
 //slick installation
 // npm i react-slick slick carousel
  //npm i slick-carousel

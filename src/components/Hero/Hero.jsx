@@ -47,7 +47,7 @@ function Hero() {
                         <span className='bg-clip-text text-transparent bg-gradient-to-r from-red-400 to-red-900 drop-shadow-[4px_4px_0_rgba(255, 255,255, 1)]' style={{filter:'drop-shadow(4px 4px 0 rgba(255, 199 , 20 , 1))'}}>King</span>
                     </h1>
                     <p data-aos="fade-up" className='text-sm '>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias quia facere provident delectus tenetur ad veniam dignissimos temporibus. Quia repellat impedit incidunt, reiciendis maiores veritatis nobis consequatur fuga provident est!
+                     Indulge in a tantalizing journey of savory, handcrafted burgers, meticulously prepared to captivate your taste buds. Savor every bite and relish the ultimate experience of pure gastronomic delight.
                     </p>
                     <div data-aos="fade-up">
                                             <button className='px-10 py-2 font-bold text-black duration-200 border-white rounded-full bg-gradient-to-r from-primary to-white hover:scale-105'>Order</button>

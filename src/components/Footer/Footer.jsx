@@ -1,4 +1,3 @@
-import React from "react";
 import {
   FaFacebook,
   FaInstagram,
@@ -20,8 +19,7 @@ const Footer = () => {
               Burger King
             </h1>
             <p className="">
-              Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Possimus, voluptate.{" "}
+              Welcome to Burger King, your ultimate destination for mouthwatering burgers! Enjoy a diverse range of flavors made with the freshest ingredients.
             </p>
             <br />
             <div className="flex items-center gap-3">

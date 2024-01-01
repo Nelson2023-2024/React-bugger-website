@@ -19,10 +19,10 @@ function Banner() {
                     {/* Text section */}
                     <div data-aos="fade-left" className='flex flex-col justify-center gap-6 sm:pt-0'>
                         <h1 className='text-3xl font-bold text-center md:text-left text-primary'>By 3 get 1 free</h1>
-                        <p className='text-sm leading-5 tracking-wide text-gray-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium qui provident illo maiores nulla sint quae commodi perferendis voluptate, veritatis similique laborum voluptatem maxime earum, sapiente nemo! Hic, sit! Quidem.
-                        <br />
-                        <br />
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis tempore expedita maiores consectetur saepe at dolore. Alias enim cumque assumenda distinctio ab a ipsam voluptate dignissimos vel? Ullam, ab tempora!
+                        <p className='text-sm leading-5 tracking-wide text-gray-500'>Indulge in our special offer! Purchase three of your favorite burgers, and we'll treat you to an extra one for free. Discover the joy of deliciousness with our delightful range of burgers made just for you.
+                     <br />
+                     <br />
+                     Whether youre a meat lover or prefer vegetarian options, our menu has something to satiate everyones taste buds. Taste the goodness and experience satisfaction with every bite.
                         </p>
                         <div className='flex justify-center gap-6'>
                             <div>

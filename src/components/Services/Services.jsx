@@ -4,51 +4,51 @@ import Img2 from '../../assets/burger/burger2.png'
 import Img3 from '../../assets/burger/burger3.png'
 import HeaderectionTitle from '../HeaderSectionTitle.jsx/HeaderectionTitle'
 
-const ServicesData =[
-    {
-        id:1,
-        img: Img1,
-        name:"Burger",
-        description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, eaque! Eaque nisi eos, quam rem sequi quo adipisci quis officiis labore incidunt quibusdam iusto molestias animi nostrum necessitatibus obcaecati minima?",
-        aosDelay:100,
-    },
-       {
-        id:2,
-        img: Img2,
-        name:"Burger",
-        description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, eaque! Eaque nisi eos, quam rem sequi quo adipisci quis officiis labore incidunt quibusdam iusto molestias animi nostrum necessitatibus obcaecati minima?",
-        aosDelay:300,
-    },
-       {
-        id:3,
-        img: Img3,
-        name:"Burger",
-        description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, eaque! Eaque nisi eos, quam rem sequi quo adipisci quis officiis labore incidunt quibusdam iusto molestias animi nostrum necessitatibus obcaecati minima?",
-        aosDelay:500,
-    },
-       {
-        id:4,
-        img: Img1,
-        name:"Burger",
-        description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, eaque! Eaque nisi eos, quam rem sequi quo adipisci quis officiis labore incidunt quibusdam iusto molestias animi nostrum necessitatibus obcaecati minima?",
-        aosDelay:100,
-    },
-       {
-        id:5,
-        img: Img2,
-        name:"Burger",
-        description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, eaque! Eaque nisi eos, quam rem sequi quo adipisci quis officiis labore incidunt quibusdam iusto molestias animi nostrum necessitatibus obcaecati minima?",
-        aosDelay:300,
-    },
-       {
-        id:6,
-        img: Img3,
-        name:"Burger",
-        description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, eaque! Eaque nisi eos, quam rem sequi quo adipisci quis officiis labore incidunt quibusdam iusto molestias animi nostrum necessitatibus obcaecati minima?",
-        aosDelay:500,
-    },
+const ServicesData = [
+  {
+    id: 1,
+    img: Img1,
+    name: 'Classic Burger',
+    description: 'Sink your teeth into our classic beef patty, topped with fresh lettuce, tomatoes, and our signature sauce.',
+    aosDelay: 100,
+  },
+  {
+    id: 2,
+    img: Img2,
+    name: 'Vegetarian Delight',
+    description: 'Experience our delightful vegetarian option, packed with grilled veggies, avocado, and zesty sauce.',
+    aosDelay: 300,
+  },
+  {
+    id: 3,
+    img: Img3,
+    name: 'Spicy Chicken Burger',
+    description: 'Indulge in our spicy chicken burger, crafted with premium chicken fillet, jalapenos, and tangy spices.',
+    aosDelay: 500,
+  },
+  {
+    id: 4,
+    img: Img1,
+    name: 'Cheeseburger Paradise',
+    description: 'Dive into our cheeseburger paradise, featuring layers of melted cheese, crispy bacon, and our secret sauce.',
+    aosDelay: 100,
+  },
+  {
+    id: 5,
+    img: Img2,
+    name: 'Mushroom Burger',
+    description: 'Savor our mushroom burger, a delightful mix of sautéed mushrooms, caramelized onions, and Swiss cheese.',
+    aosDelay: 300,
+  },
+  {
+    id: 6,
+    img: Img3,
+    name: 'BBQ Bacon Burger',
+    description: 'Try our BBQ bacon burger, a savory blend of smoky BBQ sauce, crispy bacon, and flame-grilled beef.',
+    aosDelay: 500,
+  },
+];
 
-]
 function Services() {
   return (
     <div className='bg-gray-100 '>
